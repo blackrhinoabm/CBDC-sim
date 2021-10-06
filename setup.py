@@ -20,19 +20,19 @@ install_requires = [x.strip() for x in all_reqs if ('git+' not in x) and (
 dependency_links = [x.strip().replace('git+', '') for x in all_reqs \
                     if 'git+' not in x]
 setup(
-    name='CBDC-sim',
+    name='cbdcsim',
     description='CBCD-sim is an open source, easy-to-use, agent-based, simulator of artificial monetary transactions',
     version='0.1a',
     packages=find_packages(),  # list of all packages
-    install_requires=['joblib', 'SALib', 'click', 'decorator', 'networkx', 'numpy', 'pandas', 'python-dateutil',
-                      'pytz', 'scikit-learn', 'scipy', 'sklearn', 'threadpoolctl', 'xlrd'],
+    install_requires=['joblib', 'click', 'decorator', 'numpy', 'pandas', 'python-dateutil',
+                      'pytz', 'scipy', 'threadpoolctl', 'xlrd'],
     python_requires='>=3.6',
     entry_points='''
     [console_scripts]
-    sabcom=sabcom.__main__:main
+    cbdcsim=cbdcsim.__main__:main
     ''',
     author="Joeri Schasfoort",
-    keyword="CBDC, central banking, South Africa, simulation",
+    keyword="cbdc, central banking, simulation",
     long_description=README,
     long_description_content_type="text/markdown",
     license='MIT',
