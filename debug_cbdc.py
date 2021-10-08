@@ -4,7 +4,7 @@ from cbdcsim.__main__ import brsolow
 
 
 
-brsolow(input_folder_path='input',  output_folder_path='output')
+brsolow(time= 188, input_folder_path='input',  output_folder_path='output')
 
 
 

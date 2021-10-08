@@ -21,12 +21,12 @@ def main():
     pass
 
 
-# @main.command()
-# @click.option('--time', '-t', type=int, required=True, help="simulated periods")
-# @click.option('--input_folder_path', '-i', type=click.Path(exists=True), required=True,
-#               help="This should contain all necessary input files, specifically an initialisation folder")
-# @click.option('--output_folder_path', '-o', type=click.Path(exists=True), required=True,
-#               help="All simulation output will be deposited here")
+@main.command()
+@click.option('--time', '-t', type=int, required=True, help="simulated periods")
+@click.option('--input_folder_path', '-i', type=click.Path(exists=True), required=True,
+              help="This should contain all necessary input files, specifically an initialisation folder")
+@click.option('--output_folder_path', '-o', type=click.Path(exists=True), required=True,
+              help="All simulation output will be deposited here")
 def brsolow(**kwargs):
     """
     This function is used to run / simulate a differential equation version of the Solow Growth model.

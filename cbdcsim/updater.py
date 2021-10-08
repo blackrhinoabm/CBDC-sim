@@ -17,6 +17,18 @@ def updater(environment, data_folder='output_data/', seed=0):
     random.seed(seed)
 
     # initialisation:
+    labour_growth = environment.parameters['labour_growth']  # the labor-force L proportional growth rate (n)
+    efficiency_growth = environment.parameters[
+        'efficiency_growth']  # the labor-efficiency E proportional growth rate (g)
+    savings_rate = environment.parameters['savings_rate']  # the share of production Y that is saved and invested (s)
+    depreciation_rate = environment.parameters['depreciation_rate']  # the capital depreciation rate (δ)
+    production_elasticity = environment.parameters[
+        'production_elasticity']  # the elasticitiy of production Y with respect to capital θ
+    labour_0 = environment.parameters['labour_zero']  # labour force T=0 (L_0)
+    efficiency_0 = environment.parameters['efficiency_zero']  # labour efficiency T=0 (E_0)
+    capital_0 = environment.parameters['capital_zero']  # capital at T=0 (κ_0)
+    time = environment.parameters['time']  # simulation time
+
     environment.data = pd.DataFrame()
     labour = [labour_0]
     labour_efficiency = [efficiency_0]
