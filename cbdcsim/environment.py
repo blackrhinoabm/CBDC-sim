@@ -1,11 +1,10 @@
-import numpy as np
 import networkx as nx
-import random
-import copy
-import os
 import pandas as pd
 
-from cbdcsim.agent import Agent
+from cbdcsim.bank import Bank
+from cbdcsim.firm import Firm
+from cbdcsim.household import Household
+
 
 class Environment:
     """
@@ -20,11 +19,20 @@ class Environment:
         :param parameters: contains all model parameters, dictionary
         """
         self.parameters = parameters
-        self.agents = [Agent(x) for x in range(parameters["number_of_agents"])]
+        self.measurement = {'period': [], 'to_agent': [], 'from_agent':[], 'settlement_type': [], 'amount': [], 'description': []}
+        self.banks = [Bank(x, parameters["interest_deposits"], parameters["interest_loans"],
+                           {'deposits': -parameters['initial_deposits'] / parameters["num_banks"]}) for x in range(
+            parameters["num_banks"])]
+        self.households = [Household(x, parameters["labour"], parameters["propensity_to_save"],
+                                     {'deposits': parameters['initial_deposits'] / (parameters["num_households"] + parameters["num_firms"])}) for x in range(
+            parameters["num_households"])]
+        self.firms = [Firm(x, parameters["productivity"],
+                           {'deposits': parameters['initial_deposits'] / (parameters["num_households"] + parameters["num_firms"])}) for x in range(parameters["num_firms"])]
+        self.transactions_list = {'period': [], 'to_agent': [], 'from_agent_': [], 'settlement_type': [], 'amount': []}
         graph = nx.Graph()
 
-        # 3 Next, we create the a city wide network structure of recurring contacts by linking all agents of types
-        for agent in self.agents:
+        # 3 Next, we create the network structure linking Banks, Households, and Firms
+        for bank in self.banks:
             pass
             # link households to banks
 
@@ -40,10 +48,12 @@ class Environment:
         self.network = graph
 
         # rename agents to reflect their new position
-        for idx, agent in enumerate(self.agents):
+        for idx, agent in enumerate(self.banks):
             agent.name = idx
 
         # add agent to the network structure
-        for idx, agent in enumerate(self.agents):
+        for idx, agent in enumerate(self.banks):
             pass
             #self.network.nodes[idx]['agent'] = agent
+
+

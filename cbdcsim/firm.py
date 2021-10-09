@@ -1,6 +1,6 @@
 
-class Agent:
-    def __init__(self, name):
+class Firm:
+    def __init__(self, name, productivity, initial_accounts):
         """
         This method initialises an agent and its properties.
 
@@ -18,12 +18,11 @@ class Agent:
         # state variables
         # agent specific parameters
         self.name = name
-        self.type = None
-        self.assets = None
-        self.liabilities = None
+        self.productivity = productivity
+        self.accounts = initial_accounts
 
     def __repr__(self):
         """
         :return: String representation of the trader
         """
-        return ' Agent' + str(self.name)
+        return ' Firm' + str(self.name)

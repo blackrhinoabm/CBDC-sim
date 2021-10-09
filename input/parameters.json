@@ -1,1 +1,15 @@
-{"time": 180, "number_of_agents": 1000, "labour_growth": 0.01, "efficiency_growth": 0.02, "savings_rate": 0.12, "depreciation_rate": 0.03, "production_elasticity": 1.09, "labour_zero": 1, "efficiency_zero": 1, "capital_zero": 8}
+{
+  "num_sweeps": 100,
+  "num_simulations": 1,
+  "num_banks": 2,
+  "num_firms": 1,
+  "num_households": 1,
+  "time": 100,
+  "productivity": 0.0,
+  "labour": 24.00,
+  "propensity_to_save": 0.4,
+  "interest_deposits": 0.01,
+  "interest_loans": 0.02,
+  "initial_deposits": 20
+}
+
