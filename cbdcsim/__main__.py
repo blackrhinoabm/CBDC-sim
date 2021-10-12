@@ -58,8 +58,23 @@ def simple(**kwargs):
         for param in parameters:
             logging.debug('Parameter {} is {}'.format(param, parameters[param]))
 
+    # TODO add load agent parameters
+    agent_pars = {}
+    for par_name in ['banks', 'households', 'firms', 'central-bank']:
+        par_path = os.path.join(input_folder_path, par_name)
+        par_files = os.listdir(par_path)
+        i_pars = []
+        for file in par_files:
+            with open(os.path.join(par_path, file)) as json_file:
+                individual_parameters = json.load(json_file)
+            i_pars.append(individual_parameters)
+
+        agent_pars[par_name] = i_pars
+
+
     # 2 initialisation
-    environment = Environment(parameters)
+    environment = Environment(parameters, agent_pars['banks'], agent_pars['households'],
+                              agent_pars['firms'], agent_pars['central-bank'])
 
     if kwargs.get('output_folder_path'):
         output_folder_path = kwargs.get('output_folder_path')

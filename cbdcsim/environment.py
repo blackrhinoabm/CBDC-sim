@@ -4,6 +4,7 @@ import pandas as pd
 from cbdcsim.bank import Bank
 from cbdcsim.firm import Firm
 from cbdcsim.household import Household
+from cbdcsim.central_bank import CentralBank
 
 
 class Environment:
@@ -11,7 +12,7 @@ class Environment:
     The environment class contains the agents in a network structure
     """
 
-    def __init__(self, parameters):
+    def __init__(self, parameters, bank_parameters, household_parameters, firm_parameters, cb_parameters):
         """
         This method initialises the environment and its properties.
 
@@ -20,14 +21,25 @@ class Environment:
         """
         self.parameters = parameters
         self.measurement = {'period': [], 'to_agent': [], 'from_agent':[], 'settlement_type': [], 'amount': [], 'description': []}
-        self.banks = [Bank(x, parameters["interest_deposits"], parameters["interest_loans"],
-                           {'deposits': -parameters['initial_deposits'] / parameters["num_banks"]}) for x in range(
-            parameters["num_banks"])]
-        self.households = [Household(x, parameters["labour"], parameters["propensity_to_save"],
-                                     {'deposits': parameters['initial_deposits'] / (parameters["num_households"] + parameters["num_firms"])}) for x in range(
-            parameters["num_households"])]
-        self.firms = [Firm(x, parameters["productivity"],
-                           {'deposits': parameters['initial_deposits'] / (parameters["num_households"] + parameters["num_firms"])}) for x in range(parameters["num_firms"])]
+
+        # TODO debug
+        self.banks = []
+        for idx, bank_pars in enumerate(bank_parameters):
+            self.banks.append(Bank('b{}'.format(idx), bank_pars["interest_deposits"], bank_pars["interest_loans"],
+                                   {'deposits': -bank_pars['initial_deposits']}))
+
+        self.firms = []
+        for idx, firm_pars in enumerate(firm_parameters):
+            self.firms.append(Firm('f{}'.format(idx), firm_pars["productivity"], {'deposits': firm_pars['initial_deposits']}))
+
+        self.households = []
+        for idx, household_pars in enumerate(household_parameters):
+            self.households.append(
+                Household('f{}'.format(idx), household_pars["labour"], household_pars['propensity_to_save'],
+                          {'deposits': household_pars['initial_deposits']}))
+
+        self.central_bank = [CentralBank('cb1')]
+
         self.transactions_list = {'period': [], 'to_agent': [], 'from_agent_': [], 'settlement_type': [], 'amount': []}
         graph = nx.Graph()
 
