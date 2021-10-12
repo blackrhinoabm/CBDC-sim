@@ -10,16 +10,25 @@ CBCD-sim is an open source, easy-to-use, agent-based, simulator of artificial mo
 Currently the model can be run using debug_cbdc.py 
 
 # Structure
-The model uses the Black Rhino architecture in which the model is run from the __main__ file. The simularion order is: 
+The model uses the Black Rhino architecture in which the model is run from the __main__ file. To run the model two
+folders are required: an input folder (containing general and agent specific input parameters) and an output folder
+(where the transaction output csv will be stored).
 
-1. Load parameters from input/parameters.json
-2. Initialise Environment class containing agents and measurements
-3. Run the runner 
-4. Which calls the updater
-5. Which contains a time loop that for every period
-6. Accrues from banks interest to the household and firm
-7. For each transaction an entry is saved to the environment
-8. At the end of the simulation the output is a csv file with all transactions (in output folder)
+The simulation order is: 
+
+1. (optionally) Update the set-parameters notebook to change parameters in the input folder 
+2. Load parameters from input/parameters.json
+3. Initialise Environment class containing agents and measurements
+4. Run the runner 
+5. Which calls the updater
+6. Which contains a time loop that for every period
+7. Accrues from banks interest to the household and firm
+8. For each transaction an entry is saved to the environment
+9. At the end of the simulation the output is a csv file with all transactions (in output folder)
+
+# Changing how the model works 
+The simplest way to change how the model works is by changing the parameters. For deeper structural changes
+the most important logic of the model (day loop) happens in the updater.py file. You can change the simulation there.
 
 # Future / Click application
 Once the model is finished the model can be downloaded using: 
