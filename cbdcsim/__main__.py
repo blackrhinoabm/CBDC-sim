@@ -4,6 +4,7 @@ import os
 import pandas as pd
 import json
 import logging
+import networkx as nx
 
 from cbdcsim.runner import runner
 from cbdcsim.environment import Environment
@@ -58,7 +59,6 @@ def simple(**kwargs):
         for param in parameters:
             logging.debug('Parameter {} is {}'.format(param, parameters[param]))
 
-    # TODO add load agent parameters
     agent_pars = {}
     for par_name in ['banks', 'households', 'firms', 'central-bank']:
         par_path = os.path.join(input_folder_path, par_name)
@@ -71,10 +71,13 @@ def simple(**kwargs):
 
         agent_pars[par_name] = i_pars
 
+    # load network from file
+    network_path = os.path.join(input_folder_path, 'network.gexf')
+    graph = nx.read_gexf(network_path)
 
     # 2 initialisation
     environment = Environment(parameters, agent_pars['banks'], agent_pars['households'],
-                              agent_pars['firms'], agent_pars['central-bank'])
+                              agent_pars['firms'], agent_pars['central-bank'], graph)
 
     if kwargs.get('output_folder_path'):
         output_folder_path = kwargs.get('output_folder_path')

@@ -1,0 +1,753 @@
+;period;to_agent;from_agent;settlement_type;amount;description
+0;0; Firmf0; Bankb0;deposits;0.55;interest deposits
+1;0; Firmf1; Bankb0;deposits;0.55;interest deposits
+2;0;Householdhh0; Bankb1;deposits;0.55;interest deposits
+3;0;Householdhh1; Bankb1;deposits;0.55;interest deposits
+4;1; Firmf0; Bankb0;deposits;0.605;interest deposits
+5;1; Firmf1; Bankb0;deposits;0.605;interest deposits
+6;1;Householdhh0; Bankb1;deposits;0.605;interest deposits
+7;1;Householdhh1; Bankb1;deposits;0.605;interest deposits
+8;2; Firmf0; Bankb0;deposits;0.6655;interest deposits
+9;2; Firmf1; Bankb0;deposits;0.6655;interest deposits
+10;2;Householdhh0; Bankb1;deposits;0.6655;interest deposits
+11;2;Householdhh1; Bankb1;deposits;0.6655;interest deposits
+12;3; Firmf0; Bankb0;deposits;0.73205;interest deposits
+13;3; Firmf1; Bankb0;deposits;0.73205;interest deposits
+14;3;Householdhh0; Bankb1;deposits;0.73205;interest deposits
+15;3;Householdhh1; Bankb1;deposits;0.73205;interest deposits
+16;4; Firmf0; Bankb0;deposits;0.8052549999999998;interest deposits
+17;4; Firmf1; Bankb0;deposits;0.8052549999999998;interest deposits
+18;4;Householdhh0; Bankb1;deposits;0.8052549999999998;interest deposits
+19;4;Householdhh1; Bankb1;deposits;0.8052549999999998;interest deposits
+20;5; Firmf0; Bankb0;deposits;0.8857805;interest deposits
+21;5; Firmf1; Bankb0;deposits;0.8857805;interest deposits
+22;5;Householdhh0; Bankb1;deposits;0.8857805;interest deposits
+23;5;Householdhh1; Bankb1;deposits;0.8857805;interest deposits
+24;6; Firmf0; Bankb0;deposits;0.9743585499999998;interest deposits
+25;6; Firmf1; Bankb0;deposits;0.9743585499999998;interest deposits
+26;6;Householdhh0; Bankb1;deposits;0.9743585499999998;interest deposits
+27;6;Householdhh1; Bankb1;deposits;0.9743585499999998;interest deposits
+28;7; Firmf0; Bankb0;deposits;1.071794405;interest deposits
+29;7; Firmf1; Bankb0;deposits;1.071794405;interest deposits
+30;7;Householdhh0; Bankb1;deposits;1.071794405;interest deposits
+31;7;Householdhh1; Bankb1;deposits;1.071794405;interest deposits
+32;8; Firmf0; Bankb0;deposits;1.1789738454999998;interest deposits
+33;8; Firmf1; Bankb0;deposits;1.1789738454999998;interest deposits
+34;8;Householdhh0; Bankb1;deposits;1.1789738454999998;interest deposits
+35;8;Householdhh1; Bankb1;deposits;1.1789738454999998;interest deposits
+36;9; Firmf0; Bankb0;deposits;1.2968712300499998;interest deposits
+37;9; Firmf1; Bankb0;deposits;1.2968712300499998;interest deposits
+38;9;Householdhh0; Bankb1;deposits;1.2968712300499998;interest deposits
+39;9;Householdhh1; Bankb1;deposits;1.2968712300499998;interest deposits
+40;10; Firmf0; Bankb0;deposits;1.426558353055;interest deposits
+41;10; Firmf1; Bankb0;deposits;1.426558353055;interest deposits
+42;10;Householdhh0; Bankb1;deposits;1.426558353055;interest deposits
+43;10;Householdhh1; Bankb1;deposits;1.426558353055;interest deposits
+44;11; Firmf0; Bankb0;deposits;1.5692141883605;interest deposits
+45;11; Firmf1; Bankb0;deposits;1.5692141883605;interest deposits
+46;11;Householdhh0; Bankb1;deposits;1.5692141883605;interest deposits
+47;11;Householdhh1; Bankb1;deposits;1.5692141883605;interest deposits
+48;12; Firmf0; Bankb0;deposits;1.72613560719655;interest deposits
+49;12; Firmf1; Bankb0;deposits;1.72613560719655;interest deposits
+50;12;Householdhh0; Bankb1;deposits;1.72613560719655;interest deposits
+51;12;Householdhh1; Bankb1;deposits;1.72613560719655;interest deposits
+52;13; Firmf0; Bankb0;deposits;1.898749167916205;interest deposits
+53;13; Firmf1; Bankb0;deposits;1.898749167916205;interest deposits
+54;13;Householdhh0; Bankb1;deposits;1.898749167916205;interest deposits
+55;13;Householdhh1; Bankb1;deposits;1.898749167916205;interest deposits
+56;14; Firmf0; Bankb0;deposits;2.0886240847078255;interest deposits
+57;14; Firmf1; Bankb0;deposits;2.0886240847078255;interest deposits
+58;14;Householdhh0; Bankb1;deposits;2.0886240847078255;interest deposits
+59;14;Householdhh1; Bankb1;deposits;2.0886240847078255;interest deposits
+60;15; Firmf0; Bankb0;deposits;2.297486493178608;interest deposits
+61;15; Firmf1; Bankb0;deposits;2.297486493178608;interest deposits
+62;15;Householdhh0; Bankb1;deposits;2.297486493178608;interest deposits
+63;15;Householdhh1; Bankb1;deposits;2.297486493178608;interest deposits
+64;16; Firmf0; Bankb0;deposits;2.5272351424964685;interest deposits
+65;16; Firmf1; Bankb0;deposits;2.5272351424964685;interest deposits
+66;16;Householdhh0; Bankb1;deposits;2.5272351424964685;interest deposits
+67;16;Householdhh1; Bankb1;deposits;2.5272351424964685;interest deposits
+68;17; Firmf0; Bankb0;deposits;2.7799586567461154;interest deposits
+69;17; Firmf1; Bankb0;deposits;2.7799586567461154;interest deposits
+70;17;Householdhh0; Bankb1;deposits;2.7799586567461154;interest deposits
+71;17;Householdhh1; Bankb1;deposits;2.7799586567461154;interest deposits
+72;18; Firmf0; Bankb0;deposits;3.0579545224207267;interest deposits
+73;18; Firmf1; Bankb0;deposits;3.0579545224207267;interest deposits
+74;18;Householdhh0; Bankb1;deposits;3.0579545224207267;interest deposits
+75;18;Householdhh1; Bankb1;deposits;3.0579545224207267;interest deposits
+76;19; Firmf0; Bankb0;deposits;3.3637499746627997;interest deposits
+77;19; Firmf1; Bankb0;deposits;3.3637499746627997;interest deposits
+78;19;Householdhh0; Bankb1;deposits;3.3637499746627997;interest deposits
+79;19;Householdhh1; Bankb1;deposits;3.3637499746627997;interest deposits
+80;20; Firmf0; Bankb0;deposits;3.70012497212908;interest deposits
+81;20; Firmf1; Bankb0;deposits;3.70012497212908;interest deposits
+82;20;Householdhh0; Bankb1;deposits;3.70012497212908;interest deposits
+83;20;Householdhh1; Bankb1;deposits;3.70012497212908;interest deposits
+84;21; Firmf0; Bankb0;deposits;4.070137469341988;interest deposits
+85;21; Firmf1; Bankb0;deposits;4.070137469341988;interest deposits
+86;21;Householdhh0; Bankb1;deposits;4.070137469341988;interest deposits
+87;21;Householdhh1; Bankb1;deposits;4.070137469341988;interest deposits
+88;22; Firmf0; Bankb0;deposits;4.477151216276186;interest deposits
+89;22; Firmf1; Bankb0;deposits;4.477151216276186;interest deposits
+90;22;Householdhh0; Bankb1;deposits;4.477151216276186;interest deposits
+91;22;Householdhh1; Bankb1;deposits;4.477151216276186;interest deposits
+92;23; Firmf0; Bankb0;deposits;4.924866337903805;interest deposits
+93;23; Firmf1; Bankb0;deposits;4.924866337903805;interest deposits
+94;23;Householdhh0; Bankb1;deposits;4.924866337903805;interest deposits
+95;23;Householdhh1; Bankb1;deposits;4.924866337903805;interest deposits
+96;24; Firmf0; Bankb0;deposits;5.417352971694186;interest deposits
+97;24; Firmf1; Bankb0;deposits;5.417352971694186;interest deposits
+98;24;Householdhh0; Bankb1;deposits;5.417352971694186;interest deposits
+99;24;Householdhh1; Bankb1;deposits;5.417352971694186;interest deposits
+100;25; Firmf0; Bankb0;deposits;5.959088268863605;interest deposits
+101;25; Firmf1; Bankb0;deposits;5.959088268863605;interest deposits
+102;25;Householdhh0; Bankb1;deposits;5.959088268863605;interest deposits
+103;25;Householdhh1; Bankb1;deposits;5.959088268863605;interest deposits
+104;26; Firmf0; Bankb0;deposits;6.5549970957499655;interest deposits
+105;26; Firmf1; Bankb0;deposits;6.5549970957499655;interest deposits
+106;26;Householdhh0; Bankb1;deposits;6.5549970957499655;interest deposits
+107;26;Householdhh1; Bankb1;deposits;6.5549970957499655;interest deposits
+108;27; Firmf0; Bankb0;deposits;7.210496805324962;interest deposits
+109;27; Firmf1; Bankb0;deposits;7.210496805324962;interest deposits
+110;27;Householdhh0; Bankb1;deposits;7.210496805324962;interest deposits
+111;27;Householdhh1; Bankb1;deposits;7.210496805324962;interest deposits
+112;28; Firmf0; Bankb0;deposits;7.931546485857459;interest deposits
+113;28; Firmf1; Bankb0;deposits;7.931546485857459;interest deposits
+114;28;Householdhh0; Bankb1;deposits;7.931546485857459;interest deposits
+115;28;Householdhh1; Bankb1;deposits;7.931546485857459;interest deposits
+116;29; Firmf0; Bankb0;deposits;8.724701134443205;interest deposits
+117;29; Firmf1; Bankb0;deposits;8.724701134443205;interest deposits
+118;29;Householdhh0; Bankb1;deposits;8.724701134443205;interest deposits
+119;29;Householdhh1; Bankb1;deposits;8.724701134443205;interest deposits
+120;30; Firmf0; Bankb0;deposits;9.597171247887525;interest deposits
+121;30; Firmf1; Bankb0;deposits;9.597171247887525;interest deposits
+122;30;Householdhh0; Bankb1;deposits;9.597171247887525;interest deposits
+123;30;Householdhh1; Bankb1;deposits;9.597171247887525;interest deposits
+124;31; Firmf0; Bankb0;deposits;10.556888372676278;interest deposits
+125;31; Firmf1; Bankb0;deposits;10.556888372676278;interest deposits
+126;31;Householdhh0; Bankb1;deposits;10.556888372676278;interest deposits
+127;31;Householdhh1; Bankb1;deposits;10.556888372676278;interest deposits
+128;32; Firmf0; Bankb0;deposits;11.612577209943908;interest deposits
+129;32; Firmf1; Bankb0;deposits;11.612577209943908;interest deposits
+130;32;Householdhh0; Bankb1;deposits;11.612577209943908;interest deposits
+131;32;Householdhh1; Bankb1;deposits;11.612577209943908;interest deposits
+132;33; Firmf0; Bankb0;deposits;12.773834930938298;interest deposits
+133;33; Firmf1; Bankb0;deposits;12.773834930938298;interest deposits
+134;33;Householdhh0; Bankb1;deposits;12.773834930938298;interest deposits
+135;33;Householdhh1; Bankb1;deposits;12.773834930938298;interest deposits
+136;34; Firmf0; Bankb0;deposits;14.051218424032127;interest deposits
+137;34; Firmf1; Bankb0;deposits;14.051218424032127;interest deposits
+138;34;Householdhh0; Bankb1;deposits;14.051218424032127;interest deposits
+139;34;Householdhh1; Bankb1;deposits;14.051218424032127;interest deposits
+140;35; Firmf0; Bankb0;deposits;15.45634026643534;interest deposits
+141;35; Firmf1; Bankb0;deposits;15.45634026643534;interest deposits
+142;35;Householdhh0; Bankb1;deposits;15.45634026643534;interest deposits
+143;35;Householdhh1; Bankb1;deposits;15.45634026643534;interest deposits
+144;36; Firmf0; Bankb0;deposits;17.001974293078874;interest deposits
+145;36; Firmf1; Bankb0;deposits;17.001974293078874;interest deposits
+146;36;Householdhh0; Bankb1;deposits;17.001974293078874;interest deposits
+147;36;Householdhh1; Bankb1;deposits;17.001974293078874;interest deposits
+148;37; Firmf0; Bankb0;deposits;18.702171722386762;interest deposits
+149;37; Firmf1; Bankb0;deposits;18.702171722386762;interest deposits
+150;37;Householdhh0; Bankb1;deposits;18.702171722386762;interest deposits
+151;37;Householdhh1; Bankb1;deposits;18.702171722386762;interest deposits
+152;38; Firmf0; Bankb0;deposits;20.572388894625437;interest deposits
+153;38; Firmf1; Bankb0;deposits;20.572388894625437;interest deposits
+154;38;Householdhh0; Bankb1;deposits;20.572388894625437;interest deposits
+155;38;Householdhh1; Bankb1;deposits;20.572388894625437;interest deposits
+156;39; Firmf0; Bankb0;deposits;22.629627784087983;interest deposits
+157;39; Firmf1; Bankb0;deposits;22.629627784087983;interest deposits
+158;39;Householdhh0; Bankb1;deposits;22.629627784087983;interest deposits
+159;39;Householdhh1; Bankb1;deposits;22.629627784087983;interest deposits
+160;40; Firmf0; Bankb0;deposits;24.89259056249678;interest deposits
+161;40; Firmf1; Bankb0;deposits;24.89259056249678;interest deposits
+162;40;Householdhh0; Bankb1;deposits;24.89259056249678;interest deposits
+163;40;Householdhh1; Bankb1;deposits;24.89259056249678;interest deposits
+164;41; Firmf0; Bankb0;deposits;27.381849618746458;interest deposits
+165;41; Firmf1; Bankb0;deposits;27.381849618746458;interest deposits
+166;41;Householdhh0; Bankb1;deposits;27.381849618746458;interest deposits
+167;41;Householdhh1; Bankb1;deposits;27.381849618746458;interest deposits
+168;42; Firmf0; Bankb0;deposits;30.120034580621105;interest deposits
+169;42; Firmf1; Bankb0;deposits;30.120034580621105;interest deposits
+170;42;Householdhh0; Bankb1;deposits;30.120034580621105;interest deposits
+171;42;Householdhh1; Bankb1;deposits;30.120034580621105;interest deposits
+172;43; Firmf0; Bankb0;deposits;33.13203803868321;interest deposits
+173;43; Firmf1; Bankb0;deposits;33.13203803868321;interest deposits
+174;43;Householdhh0; Bankb1;deposits;33.13203803868321;interest deposits
+175;43;Householdhh1; Bankb1;deposits;33.13203803868321;interest deposits
+176;44; Firmf0; Bankb0;deposits;36.44524184255154;interest deposits
+177;44; Firmf1; Bankb0;deposits;36.44524184255154;interest deposits
+178;44;Householdhh0; Bankb1;deposits;36.44524184255154;interest deposits
+179;44;Householdhh1; Bankb1;deposits;36.44524184255154;interest deposits
+180;45; Firmf0; Bankb0;deposits;40.08976602680669;interest deposits
+181;45; Firmf1; Bankb0;deposits;40.08976602680669;interest deposits
+182;45;Householdhh0; Bankb1;deposits;40.08976602680669;interest deposits
+183;45;Householdhh1; Bankb1;deposits;40.08976602680669;interest deposits
+184;46; Firmf0; Bankb0;deposits;44.09874262948736;interest deposits
+185;46; Firmf1; Bankb0;deposits;44.09874262948736;interest deposits
+186;46;Householdhh0; Bankb1;deposits;44.09874262948736;interest deposits
+187;46;Householdhh1; Bankb1;deposits;44.09874262948736;interest deposits
+188;47; Firmf0; Bankb0;deposits;48.508616892436095;interest deposits
+189;47; Firmf1; Bankb0;deposits;48.508616892436095;interest deposits
+190;47;Householdhh0; Bankb1;deposits;48.508616892436095;interest deposits
+191;47;Householdhh1; Bankb1;deposits;48.508616892436095;interest deposits
+192;48; Firmf0; Bankb0;deposits;53.359478581679696;interest deposits
+193;48; Firmf1; Bankb0;deposits;53.359478581679696;interest deposits
+194;48;Householdhh0; Bankb1;deposits;53.359478581679696;interest deposits
+195;48;Householdhh1; Bankb1;deposits;53.359478581679696;interest deposits
+196;49; Firmf0; Bankb0;deposits;58.695426439847665;interest deposits
+197;49; Firmf1; Bankb0;deposits;58.695426439847665;interest deposits
+198;49;Householdhh0; Bankb1;deposits;58.695426439847665;interest deposits
+199;49;Householdhh1; Bankb1;deposits;58.695426439847665;interest deposits
+200;50; Firmf0; Bankb0;deposits;64.56496908383244;interest deposits
+201;50; Firmf1; Bankb0;deposits;64.56496908383244;interest deposits
+202;50;Householdhh0; Bankb1;deposits;64.56496908383244;interest deposits
+203;50;Householdhh1; Bankb1;deposits;64.56496908383244;interest deposits
+204;51; Firmf0; Bankb0;deposits;71.02146599221568;interest deposits
+205;51; Firmf1; Bankb0;deposits;71.02146599221568;interest deposits
+206;51;Householdhh0; Bankb1;deposits;71.02146599221568;interest deposits
+207;51;Householdhh1; Bankb1;deposits;71.02146599221568;interest deposits
+208;52; Firmf0; Bankb0;deposits;78.12361259143725;interest deposits
+209;52; Firmf1; Bankb0;deposits;78.12361259143725;interest deposits
+210;52;Householdhh0; Bankb1;deposits;78.12361259143725;interest deposits
+211;52;Householdhh1; Bankb1;deposits;78.12361259143725;interest deposits
+212;53; Firmf0; Bankb0;deposits;85.93597385058098;interest deposits
+213;53; Firmf1; Bankb0;deposits;85.93597385058098;interest deposits
+214;53;Householdhh0; Bankb1;deposits;85.93597385058098;interest deposits
+215;53;Householdhh1; Bankb1;deposits;85.93597385058098;interest deposits
+216;54; Firmf0; Bankb0;deposits;94.52957123563907;interest deposits
+217;54; Firmf1; Bankb0;deposits;94.52957123563907;interest deposits
+218;54;Householdhh0; Bankb1;deposits;94.52957123563907;interest deposits
+219;54;Householdhh1; Bankb1;deposits;94.52957123563907;interest deposits
+220;55; Firmf0; Bankb0;deposits;103.98252835920296;interest deposits
+221;55; Firmf1; Bankb0;deposits;103.98252835920296;interest deposits
+222;55;Householdhh0; Bankb1;deposits;103.98252835920296;interest deposits
+223;55;Householdhh1; Bankb1;deposits;103.98252835920296;interest deposits
+224;56; Firmf0; Bankb0;deposits;114.38078119512325;interest deposits
+225;56; Firmf1; Bankb0;deposits;114.38078119512325;interest deposits
+226;56;Householdhh0; Bankb1;deposits;114.38078119512325;interest deposits
+227;56;Householdhh1; Bankb1;deposits;114.38078119512325;interest deposits
+228;57; Firmf0; Bankb0;deposits;125.81885931463557;interest deposits
+229;57; Firmf1; Bankb0;deposits;125.81885931463557;interest deposits
+230;57;Householdhh0; Bankb1;deposits;125.81885931463557;interest deposits
+231;57;Householdhh1; Bankb1;deposits;125.81885931463557;interest deposits
+232;58; Firmf0; Bankb0;deposits;138.40074524609915;interest deposits
+233;58; Firmf1; Bankb0;deposits;138.40074524609915;interest deposits
+234;58;Householdhh0; Bankb1;deposits;138.40074524609915;interest deposits
+235;58;Householdhh1; Bankb1;deposits;138.40074524609915;interest deposits
+236;59; Firmf0; Bankb0;deposits;152.24081977070907;interest deposits
+237;59; Firmf1; Bankb0;deposits;152.24081977070907;interest deposits
+238;59;Householdhh0; Bankb1;deposits;152.24081977070907;interest deposits
+239;59;Householdhh1; Bankb1;deposits;152.24081977070907;interest deposits
+240;60; Firmf0; Bankb0;deposits;167.46490174777998;interest deposits
+241;60; Firmf1; Bankb0;deposits;167.46490174777998;interest deposits
+242;60;Householdhh0; Bankb1;deposits;167.46490174777998;interest deposits
+243;60;Householdhh1; Bankb1;deposits;167.46490174777998;interest deposits
+244;61; Firmf0; Bankb0;deposits;184.21139192255797;interest deposits
+245;61; Firmf1; Bankb0;deposits;184.21139192255797;interest deposits
+246;61;Householdhh0; Bankb1;deposits;184.21139192255797;interest deposits
+247;61;Householdhh1; Bankb1;deposits;184.21139192255797;interest deposits
+248;62; Firmf0; Bankb0;deposits;202.6325311148138;interest deposits
+249;62; Firmf1; Bankb0;deposits;202.6325311148138;interest deposits
+250;62;Householdhh0; Bankb1;deposits;202.6325311148138;interest deposits
+251;62;Householdhh1; Bankb1;deposits;202.6325311148138;interest deposits
+252;63; Firmf0; Bankb0;deposits;222.89578422629518;interest deposits
+253;63; Firmf1; Bankb0;deposits;222.89578422629518;interest deposits
+254;63;Householdhh0; Bankb1;deposits;222.89578422629518;interest deposits
+255;63;Householdhh1; Bankb1;deposits;222.89578422629518;interest deposits
+256;64; Firmf0; Bankb0;deposits;245.1853626489247;interest deposits
+257;64; Firmf1; Bankb0;deposits;245.1853626489247;interest deposits
+258;64;Householdhh0; Bankb1;deposits;245.1853626489247;interest deposits
+259;64;Householdhh1; Bankb1;deposits;245.1853626489247;interest deposits
+260;65; Firmf0; Bankb0;deposits;269.70389891381717;interest deposits
+261;65; Firmf1; Bankb0;deposits;269.70389891381717;interest deposits
+262;65;Householdhh0; Bankb1;deposits;269.70389891381717;interest deposits
+263;65;Householdhh1; Bankb1;deposits;269.70389891381717;interest deposits
+264;66; Firmf0; Bankb0;deposits;296.6742888051989;interest deposits
+265;66; Firmf1; Bankb0;deposits;296.6742888051989;interest deposits
+266;66;Householdhh0; Bankb1;deposits;296.6742888051989;interest deposits
+267;66;Householdhh1; Bankb1;deposits;296.6742888051989;interest deposits
+268;67; Firmf0; Bankb0;deposits;326.3417176857188;interest deposits
+269;67; Firmf1; Bankb0;deposits;326.3417176857188;interest deposits
+270;67;Householdhh0; Bankb1;deposits;326.3417176857188;interest deposits
+271;67;Householdhh1; Bankb1;deposits;326.3417176857188;interest deposits
+272;68; Firmf0; Bankb0;deposits;358.97588945429067;interest deposits
+273;68; Firmf1; Bankb0;deposits;358.97588945429067;interest deposits
+274;68;Householdhh0; Bankb1;deposits;358.97588945429067;interest deposits
+275;68;Householdhh1; Bankb1;deposits;358.97588945429067;interest deposits
+276;69; Firmf0; Bankb0;deposits;394.8734783997197;interest deposits
+277;69; Firmf1; Bankb0;deposits;394.8734783997197;interest deposits
+278;69;Householdhh0; Bankb1;deposits;394.8734783997197;interest deposits
+279;69;Householdhh1; Bankb1;deposits;394.8734783997197;interest deposits
+280;70; Firmf0; Bankb0;deposits;434.36082623969173;interest deposits
+281;70; Firmf1; Bankb0;deposits;434.36082623969173;interest deposits
+282;70;Householdhh0; Bankb1;deposits;434.36082623969173;interest deposits
+283;70;Householdhh1; Bankb1;deposits;434.36082623969173;interest deposits
+284;71; Firmf0; Bankb0;deposits;477.7969088636609;interest deposits
+285;71; Firmf1; Bankb0;deposits;477.7969088636609;interest deposits
+286;71;Householdhh0; Bankb1;deposits;477.7969088636609;interest deposits
+287;71;Householdhh1; Bankb1;deposits;477.7969088636609;interest deposits
+288;72; Firmf0; Bankb0;deposits;525.576599750027;interest deposits
+289;72; Firmf1; Bankb0;deposits;525.576599750027;interest deposits
+290;72;Householdhh0; Bankb1;deposits;525.576599750027;interest deposits
+291;72;Householdhh1; Bankb1;deposits;525.576599750027;interest deposits
+292;73; Firmf0; Bankb0;deposits;578.1342597250297;interest deposits
+293;73; Firmf1; Bankb0;deposits;578.1342597250297;interest deposits
+294;73;Householdhh0; Bankb1;deposits;578.1342597250297;interest deposits
+295;73;Householdhh1; Bankb1;deposits;578.1342597250297;interest deposits
+296;74; Firmf0; Bankb0;deposits;635.9476856975326;interest deposits
+297;74; Firmf1; Bankb0;deposits;635.9476856975326;interest deposits
+298;74;Householdhh0; Bankb1;deposits;635.9476856975326;interest deposits
+299;74;Householdhh1; Bankb1;deposits;635.9476856975326;interest deposits
+300;75; Firmf0; Bankb0;deposits;699.5424542672858;interest deposits
+301;75; Firmf1; Bankb0;deposits;699.5424542672858;interest deposits
+302;75;Householdhh0; Bankb1;deposits;699.5424542672858;interest deposits
+303;75;Householdhh1; Bankb1;deposits;699.5424542672858;interest deposits
+304;76; Firmf0; Bankb0;deposits;769.4966996940144;interest deposits
+305;76; Firmf1; Bankb0;deposits;769.4966996940144;interest deposits
+306;76;Householdhh0; Bankb1;deposits;769.4966996940144;interest deposits
+307;76;Householdhh1; Bankb1;deposits;769.4966996940144;interest deposits
+308;77; Firmf0; Bankb0;deposits;846.4463696634159;interest deposits
+309;77; Firmf1; Bankb0;deposits;846.4463696634159;interest deposits
+310;77;Householdhh0; Bankb1;deposits;846.4463696634159;interest deposits
+311;77;Householdhh1; Bankb1;deposits;846.4463696634159;interest deposits
+312;78; Firmf0; Bankb0;deposits;931.0910066297574;interest deposits
+313;78; Firmf1; Bankb0;deposits;931.0910066297574;interest deposits
+314;78;Householdhh0; Bankb1;deposits;931.0910066297574;interest deposits
+315;78;Householdhh1; Bankb1;deposits;931.0910066297574;interest deposits
+316;79; Firmf0; Bankb0;deposits;1024.200107292733;interest deposits
+317;79; Firmf1; Bankb0;deposits;1024.200107292733;interest deposits
+318;79;Householdhh0; Bankb1;deposits;1024.200107292733;interest deposits
+319;79;Householdhh1; Bankb1;deposits;1024.200107292733;interest deposits
+320;80; Firmf0; Bankb0;deposits;1126.6201180220064;interest deposits
+321;80; Firmf1; Bankb0;deposits;1126.6201180220064;interest deposits
+322;80;Householdhh0; Bankb1;deposits;1126.6201180220064;interest deposits
+323;80;Householdhh1; Bankb1;deposits;1126.6201180220064;interest deposits
+324;81; Firmf0; Bankb0;deposits;1239.282129824207;interest deposits
+325;81; Firmf1; Bankb0;deposits;1239.282129824207;interest deposits
+326;81;Householdhh0; Bankb1;deposits;1239.282129824207;interest deposits
+327;81;Householdhh1; Bankb1;deposits;1239.282129824207;interest deposits
+328;82; Firmf0; Bankb0;deposits;1363.2103428066278;interest deposits
+329;82; Firmf1; Bankb0;deposits;1363.2103428066278;interest deposits
+330;82;Householdhh0; Bankb1;deposits;1363.2103428066278;interest deposits
+331;82;Householdhh1; Bankb1;deposits;1363.2103428066278;interest deposits
+332;83; Firmf0; Bankb0;deposits;1499.5313770872906;interest deposits
+333;83; Firmf1; Bankb0;deposits;1499.5313770872906;interest deposits
+334;83;Householdhh0; Bankb1;deposits;1499.5313770872906;interest deposits
+335;83;Householdhh1; Bankb1;deposits;1499.5313770872906;interest deposits
+336;84; Firmf0; Bankb0;deposits;1649.4845147960195;interest deposits
+337;84; Firmf1; Bankb0;deposits;1649.4845147960195;interest deposits
+338;84;Householdhh0; Bankb1;deposits;1649.4845147960195;interest deposits
+339;84;Householdhh1; Bankb1;deposits;1649.4845147960195;interest deposits
+340;85; Firmf0; Bankb0;deposits;1814.4329662756213;interest deposits
+341;85; Firmf1; Bankb0;deposits;1814.4329662756213;interest deposits
+342;85;Householdhh0; Bankb1;deposits;1814.4329662756213;interest deposits
+343;85;Householdhh1; Bankb1;deposits;1814.4329662756213;interest deposits
+344;86; Firmf0; Bankb0;deposits;1995.8762629031835;interest deposits
+345;86; Firmf1; Bankb0;deposits;1995.8762629031835;interest deposits
+346;86;Householdhh0; Bankb1;deposits;1995.8762629031835;interest deposits
+347;86;Householdhh1; Bankb1;deposits;1995.8762629031835;interest deposits
+348;87; Firmf0; Bankb0;deposits;2195.463889193502;interest deposits
+349;87; Firmf1; Bankb0;deposits;2195.463889193502;interest deposits
+350;87;Householdhh0; Bankb1;deposits;2195.463889193502;interest deposits
+351;87;Householdhh1; Bankb1;deposits;2195.463889193502;interest deposits
+352;88; Firmf0; Bankb0;deposits;2415.010278112852;interest deposits
+353;88; Firmf1; Bankb0;deposits;2415.010278112852;interest deposits
+354;88;Householdhh0; Bankb1;deposits;2415.010278112852;interest deposits
+355;88;Householdhh1; Bankb1;deposits;2415.010278112852;interest deposits
+356;89; Firmf0; Bankb0;deposits;2656.5113059241376;interest deposits
+357;89; Firmf1; Bankb0;deposits;2656.5113059241376;interest deposits
+358;89;Householdhh0; Bankb1;deposits;2656.5113059241376;interest deposits
+359;89;Householdhh1; Bankb1;deposits;2656.5113059241376;interest deposits
+360;90; Firmf0; Bankb0;deposits;2922.162436516551;interest deposits
+361;90; Firmf1; Bankb0;deposits;2922.162436516551;interest deposits
+362;90;Householdhh0; Bankb1;deposits;2922.162436516551;interest deposits
+363;90;Householdhh1; Bankb1;deposits;2922.162436516551;interest deposits
+364;91; Firmf0; Bankb0;deposits;3214.3786801682063;interest deposits
+365;91; Firmf1; Bankb0;deposits;3214.3786801682063;interest deposits
+366;91;Householdhh0; Bankb1;deposits;3214.3786801682063;interest deposits
+367;91;Householdhh1; Bankb1;deposits;3214.3786801682063;interest deposits
+368;92; Firmf0; Bankb0;deposits;3535.8165481850265;interest deposits
+369;92; Firmf1; Bankb0;deposits;3535.8165481850265;interest deposits
+370;92;Householdhh0; Bankb1;deposits;3535.8165481850265;interest deposits
+371;92;Householdhh1; Bankb1;deposits;3535.8165481850265;interest deposits
+372;93; Firmf0; Bankb0;deposits;3889.398203003529;interest deposits
+373;93; Firmf1; Bankb0;deposits;3889.398203003529;interest deposits
+374;93;Householdhh0; Bankb1;deposits;3889.398203003529;interest deposits
+375;93;Householdhh1; Bankb1;deposits;3889.398203003529;interest deposits
+376;94; Firmf0; Bankb0;deposits;4278.3380233038815;interest deposits
+377;94; Firmf1; Bankb0;deposits;4278.3380233038815;interest deposits
+378;94;Householdhh0; Bankb1;deposits;4278.3380233038815;interest deposits
+379;94;Householdhh1; Bankb1;deposits;4278.3380233038815;interest deposits
+380;95; Firmf0; Bankb0;deposits;4706.17182563427;interest deposits
+381;95; Firmf1; Bankb0;deposits;4706.17182563427;interest deposits
+382;95;Householdhh0; Bankb1;deposits;4706.17182563427;interest deposits
+383;95;Householdhh1; Bankb1;deposits;4706.17182563427;interest deposits
+384;96; Firmf0; Bankb0;deposits;5176.7890081976975;interest deposits
+385;96; Firmf1; Bankb0;deposits;5176.7890081976975;interest deposits
+386;96;Householdhh0; Bankb1;deposits;5176.7890081976975;interest deposits
+387;96;Householdhh1; Bankb1;deposits;5176.7890081976975;interest deposits
+388;97; Firmf0; Bankb0;deposits;5694.467909017467;interest deposits
+389;97; Firmf1; Bankb0;deposits;5694.467909017467;interest deposits
+390;97;Householdhh0; Bankb1;deposits;5694.467909017467;interest deposits
+391;97;Householdhh1; Bankb1;deposits;5694.467909017467;interest deposits
+392;98; Firmf0; Bankb0;deposits;6263.9146999192135;interest deposits
+393;98; Firmf1; Bankb0;deposits;6263.9146999192135;interest deposits
+394;98;Householdhh0; Bankb1;deposits;6263.9146999192135;interest deposits
+395;98;Householdhh1; Bankb1;deposits;6263.9146999192135;interest deposits
+396;99; Firmf0; Bankb0;deposits;6890.306169911135;interest deposits
+397;99; Firmf1; Bankb0;deposits;6890.306169911135;interest deposits
+398;99;Householdhh0; Bankb1;deposits;6890.306169911135;interest deposits
+399;99;Householdhh1; Bankb1;deposits;6890.306169911135;interest deposits
+400;100; Firmf0; Bankb0;deposits;7579.336786902248;interest deposits
+401;100; Firmf1; Bankb0;deposits;7579.336786902248;interest deposits
+402;100;Householdhh0; Bankb1;deposits;7579.336786902248;interest deposits
+403;100;Householdhh1; Bankb1;deposits;7579.336786902248;interest deposits
+404;101; Firmf0; Bankb0;deposits;8337.270465592474;interest deposits
+405;101; Firmf1; Bankb0;deposits;8337.270465592474;interest deposits
+406;101;Householdhh0; Bankb1;deposits;8337.270465592474;interest deposits
+407;101;Householdhh1; Bankb1;deposits;8337.270465592474;interest deposits
+408;102; Firmf0; Bankb0;deposits;9170.99751215172;interest deposits
+409;102; Firmf1; Bankb0;deposits;9170.99751215172;interest deposits
+410;102;Householdhh0; Bankb1;deposits;9170.99751215172;interest deposits
+411;102;Householdhh1; Bankb1;deposits;9170.99751215172;interest deposits
+412;103; Firmf0; Bankb0;deposits;10088.097263366893;interest deposits
+413;103; Firmf1; Bankb0;deposits;10088.097263366893;interest deposits
+414;103;Householdhh0; Bankb1;deposits;10088.097263366893;interest deposits
+415;103;Householdhh1; Bankb1;deposits;10088.097263366893;interest deposits
+416;104; Firmf0; Bankb0;deposits;11096.90698970358;interest deposits
+417;104; Firmf1; Bankb0;deposits;11096.90698970358;interest deposits
+418;104;Householdhh0; Bankb1;deposits;11096.90698970358;interest deposits
+419;104;Householdhh1; Bankb1;deposits;11096.90698970358;interest deposits
+420;105; Firmf0; Bankb0;deposits;12206.597688673939;interest deposits
+421;105; Firmf1; Bankb0;deposits;12206.597688673939;interest deposits
+422;105;Householdhh0; Bankb1;deposits;12206.597688673939;interest deposits
+423;105;Householdhh1; Bankb1;deposits;12206.597688673939;interest deposits
+424;106; Firmf0; Bankb0;deposits;13427.257457541335;interest deposits
+425;106; Firmf1; Bankb0;deposits;13427.257457541335;interest deposits
+426;106;Householdhh0; Bankb1;deposits;13427.257457541335;interest deposits
+427;106;Householdhh1; Bankb1;deposits;13427.257457541335;interest deposits
+428;107; Firmf0; Bankb0;deposits;14769.983203295467;interest deposits
+429;107; Firmf1; Bankb0;deposits;14769.983203295467;interest deposits
+430;107;Householdhh0; Bankb1;deposits;14769.983203295467;interest deposits
+431;107;Householdhh1; Bankb1;deposits;14769.983203295467;interest deposits
+432;108; Firmf0; Bankb0;deposits;16246.981523625014;interest deposits
+433;108; Firmf1; Bankb0;deposits;16246.981523625014;interest deposits
+434;108;Householdhh0; Bankb1;deposits;16246.981523625014;interest deposits
+435;108;Householdhh1; Bankb1;deposits;16246.981523625014;interest deposits
+436;109; Firmf0; Bankb0;deposits;17871.679675987514;interest deposits
+437;109; Firmf1; Bankb0;deposits;17871.679675987514;interest deposits
+438;109;Householdhh0; Bankb1;deposits;17871.679675987514;interest deposits
+439;109;Householdhh1; Bankb1;deposits;17871.679675987514;interest deposits
+440;110; Firmf0; Bankb0;deposits;19658.847643586265;interest deposits
+441;110; Firmf1; Bankb0;deposits;19658.847643586265;interest deposits
+442;110;Householdhh0; Bankb1;deposits;19658.847643586265;interest deposits
+443;110;Householdhh1; Bankb1;deposits;19658.847643586265;interest deposits
+444;111; Firmf0; Bankb0;deposits;21624.73240794489;interest deposits
+445;111; Firmf1; Bankb0;deposits;21624.73240794489;interest deposits
+446;111;Householdhh0; Bankb1;deposits;21624.73240794489;interest deposits
+447;111;Householdhh1; Bankb1;deposits;21624.73240794489;interest deposits
+448;112; Firmf0; Bankb0;deposits;23787.205648739382;interest deposits
+449;112; Firmf1; Bankb0;deposits;23787.205648739382;interest deposits
+450;112;Householdhh0; Bankb1;deposits;23787.205648739382;interest deposits
+451;112;Householdhh1; Bankb1;deposits;23787.205648739382;interest deposits
+452;113; Firmf0; Bankb0;deposits;26165.92621361332;interest deposits
+453;113; Firmf1; Bankb0;deposits;26165.92621361332;interest deposits
+454;113;Householdhh0; Bankb1;deposits;26165.92621361332;interest deposits
+455;113;Householdhh1; Bankb1;deposits;26165.92621361332;interest deposits
+456;114; Firmf0; Bankb0;deposits;28782.518834974653;interest deposits
+457;114; Firmf1; Bankb0;deposits;28782.518834974653;interest deposits
+458;114;Householdhh0; Bankb1;deposits;28782.518834974653;interest deposits
+459;114;Householdhh1; Bankb1;deposits;28782.518834974653;interest deposits
+460;115; Firmf0; Bankb0;deposits;31660.770718472122;interest deposits
+461;115; Firmf1; Bankb0;deposits;31660.770718472122;interest deposits
+462;115;Householdhh0; Bankb1;deposits;31660.770718472122;interest deposits
+463;115;Householdhh1; Bankb1;deposits;31660.770718472122;interest deposits
+464;116; Firmf0; Bankb0;deposits;34826.847790319334;interest deposits
+465;116; Firmf1; Bankb0;deposits;34826.847790319334;interest deposits
+466;116;Householdhh0; Bankb1;deposits;34826.847790319334;interest deposits
+467;116;Householdhh1; Bankb1;deposits;34826.847790319334;interest deposits
+468;117; Firmf0; Bankb0;deposits;38309.53256935127;interest deposits
+469;117; Firmf1; Bankb0;deposits;38309.53256935127;interest deposits
+470;117;Householdhh0; Bankb1;deposits;38309.53256935127;interest deposits
+471;117;Householdhh1; Bankb1;deposits;38309.53256935127;interest deposits
+472;118; Firmf0; Bankb0;deposits;42140.4858262864;interest deposits
+473;118; Firmf1; Bankb0;deposits;42140.4858262864;interest deposits
+474;118;Householdhh0; Bankb1;deposits;42140.4858262864;interest deposits
+475;118;Householdhh1; Bankb1;deposits;42140.4858262864;interest deposits
+476;119; Firmf0; Bankb0;deposits;46354.53440891503;interest deposits
+477;119; Firmf1; Bankb0;deposits;46354.53440891503;interest deposits
+478;119;Householdhh0; Bankb1;deposits;46354.53440891503;interest deposits
+479;119;Householdhh1; Bankb1;deposits;46354.53440891503;interest deposits
+480;120; Firmf0; Bankb0;deposits;50989.98784980654;interest deposits
+481;120; Firmf1; Bankb0;deposits;50989.98784980654;interest deposits
+482;120;Householdhh0; Bankb1;deposits;50989.98784980654;interest deposits
+483;120;Householdhh1; Bankb1;deposits;50989.98784980654;interest deposits
+484;121; Firmf0; Bankb0;deposits;56088.98663478719;interest deposits
+485;121; Firmf1; Bankb0;deposits;56088.98663478719;interest deposits
+486;121;Householdhh0; Bankb1;deposits;56088.98663478719;interest deposits
+487;121;Householdhh1; Bankb1;deposits;56088.98663478719;interest deposits
+488;122; Firmf0; Bankb0;deposits;61697.8852982659;interest deposits
+489;122; Firmf1; Bankb0;deposits;61697.8852982659;interest deposits
+490;122;Householdhh0; Bankb1;deposits;61697.8852982659;interest deposits
+491;122;Householdhh1; Bankb1;deposits;61697.8852982659;interest deposits
+492;123; Firmf0; Bankb0;deposits;67867.6738280925;interest deposits
+493;123; Firmf1; Bankb0;deposits;67867.6738280925;interest deposits
+494;123;Householdhh0; Bankb1;deposits;67867.6738280925;interest deposits
+495;123;Householdhh1; Bankb1;deposits;67867.6738280925;interest deposits
+496;124; Firmf0; Bankb0;deposits;74654.44121090176;interest deposits
+497;124; Firmf1; Bankb0;deposits;74654.44121090176;interest deposits
+498;124;Householdhh0; Bankb1;deposits;74654.44121090176;interest deposits
+499;124;Householdhh1; Bankb1;deposits;74654.44121090176;interest deposits
+500;125; Firmf0; Bankb0;deposits;82119.88533199193;interest deposits
+501;125; Firmf1; Bankb0;deposits;82119.88533199193;interest deposits
+502;125;Householdhh0; Bankb1;deposits;82119.88533199193;interest deposits
+503;125;Householdhh1; Bankb1;deposits;82119.88533199193;interest deposits
+504;126; Firmf0; Bankb0;deposits;90331.87386519113;interest deposits
+505;126; Firmf1; Bankb0;deposits;90331.87386519113;interest deposits
+506;126;Householdhh0; Bankb1;deposits;90331.87386519113;interest deposits
+507;126;Householdhh1; Bankb1;deposits;90331.87386519113;interest deposits
+508;127; Firmf0; Bankb0;deposits;99365.06125171023;interest deposits
+509;127; Firmf1; Bankb0;deposits;99365.06125171023;interest deposits
+510;127;Householdhh0; Bankb1;deposits;99365.06125171023;interest deposits
+511;127;Householdhh1; Bankb1;deposits;99365.06125171023;interest deposits
+512;128; Firmf0; Bankb0;deposits;109301.56737688126;interest deposits
+513;128; Firmf1; Bankb0;deposits;109301.56737688126;interest deposits
+514;128;Householdhh0; Bankb1;deposits;109301.56737688126;interest deposits
+515;128;Householdhh1; Bankb1;deposits;109301.56737688126;interest deposits
+516;129; Firmf0; Bankb0;deposits;120231.72411456937;interest deposits
+517;129; Firmf1; Bankb0;deposits;120231.72411456937;interest deposits
+518;129;Householdhh0; Bankb1;deposits;120231.72411456937;interest deposits
+519;129;Householdhh1; Bankb1;deposits;120231.72411456937;interest deposits
+520;130; Firmf0; Bankb0;deposits;132254.8965260263;interest deposits
+521;130; Firmf1; Bankb0;deposits;132254.8965260263;interest deposits
+522;130;Householdhh0; Bankb1;deposits;132254.8965260263;interest deposits
+523;130;Householdhh1; Bankb1;deposits;132254.8965260263;interest deposits
+524;131; Firmf0; Bankb0;deposits;145480.38617862895;interest deposits
+525;131; Firmf1; Bankb0;deposits;145480.38617862895;interest deposits
+526;131;Householdhh0; Bankb1;deposits;145480.38617862895;interest deposits
+527;131;Householdhh1; Bankb1;deposits;145480.38617862895;interest deposits
+528;132; Firmf0; Bankb0;deposits;160028.42479649186;interest deposits
+529;132; Firmf1; Bankb0;deposits;160028.42479649186;interest deposits
+530;132;Householdhh0; Bankb1;deposits;160028.42479649186;interest deposits
+531;132;Householdhh1; Bankb1;deposits;160028.42479649186;interest deposits
+532;133; Firmf0; Bankb0;deposits;176031.26727614104;interest deposits
+533;133; Firmf1; Bankb0;deposits;176031.26727614104;interest deposits
+534;133;Householdhh0; Bankb1;deposits;176031.26727614104;interest deposits
+535;133;Householdhh1; Bankb1;deposits;176031.26727614104;interest deposits
+536;134; Firmf0; Bankb0;deposits;193634.39400375515;interest deposits
+537;134; Firmf1; Bankb0;deposits;193634.39400375515;interest deposits
+538;134;Householdhh0; Bankb1;deposits;193634.39400375515;interest deposits
+539;134;Householdhh1; Bankb1;deposits;193634.39400375515;interest deposits
+540;135; Firmf0; Bankb0;deposits;212997.83340413065;interest deposits
+541;135; Firmf1; Bankb0;deposits;212997.83340413065;interest deposits
+542;135;Householdhh0; Bankb1;deposits;212997.83340413065;interest deposits
+543;135;Householdhh1; Bankb1;deposits;212997.83340413065;interest deposits
+544;136; Firmf0; Bankb0;deposits;234297.61674454372;interest deposits
+545;136; Firmf1; Bankb0;deposits;234297.61674454372;interest deposits
+546;136;Householdhh0; Bankb1;deposits;234297.61674454372;interest deposits
+547;136;Householdhh1; Bankb1;deposits;234297.61674454372;interest deposits
+548;137; Firmf0; Bankb0;deposits;257727.3784189981;interest deposits
+549;137; Firmf1; Bankb0;deposits;257727.3784189981;interest deposits
+550;137;Householdhh0; Bankb1;deposits;257727.3784189981;interest deposits
+551;137;Householdhh1; Bankb1;deposits;257727.3784189981;interest deposits
+552;138; Firmf0; Bankb0;deposits;283500.11626089795;interest deposits
+553;138; Firmf1; Bankb0;deposits;283500.11626089795;interest deposits
+554;138;Householdhh0; Bankb1;deposits;283500.11626089795;interest deposits
+555;138;Householdhh1; Bankb1;deposits;283500.11626089795;interest deposits
+556;139; Firmf0; Bankb0;deposits;311850.1278869877;interest deposits
+557;139; Firmf1; Bankb0;deposits;311850.1278869877;interest deposits
+558;139;Householdhh0; Bankb1;deposits;311850.1278869877;interest deposits
+559;139;Householdhh1; Bankb1;deposits;311850.1278869877;interest deposits
+560;140; Firmf0; Bankb0;deposits;343035.14067568653;interest deposits
+561;140; Firmf1; Bankb0;deposits;343035.14067568653;interest deposits
+562;140;Householdhh0; Bankb1;deposits;343035.14067568653;interest deposits
+563;140;Householdhh1; Bankb1;deposits;343035.14067568653;interest deposits
+564;141; Firmf0; Bankb0;deposits;377338.6547432551;interest deposits
+565;141; Firmf1; Bankb0;deposits;377338.6547432551;interest deposits
+566;141;Householdhh0; Bankb1;deposits;377338.6547432551;interest deposits
+567;141;Householdhh1; Bankb1;deposits;377338.6547432551;interest deposits
+568;142; Firmf0; Bankb0;deposits;415072.52021758066;interest deposits
+569;142; Firmf1; Bankb0;deposits;415072.52021758066;interest deposits
+570;142;Householdhh0; Bankb1;deposits;415072.52021758066;interest deposits
+571;142;Householdhh1; Bankb1;deposits;415072.52021758066;interest deposits
+572;143; Firmf0; Bankb0;deposits;456579.7722393387;interest deposits
+573;143; Firmf1; Bankb0;deposits;456579.7722393387;interest deposits
+574;143;Householdhh0; Bankb1;deposits;456579.7722393387;interest deposits
+575;143;Householdhh1; Bankb1;deposits;456579.7722393387;interest deposits
+576;144; Firmf0; Bankb0;deposits;502237.7494632726;interest deposits
+577;144; Firmf1; Bankb0;deposits;502237.7494632726;interest deposits
+578;144;Householdhh0; Bankb1;deposits;502237.7494632726;interest deposits
+579;144;Householdhh1; Bankb1;deposits;502237.7494632726;interest deposits
+580;145; Firmf0; Bankb0;deposits;552461.5244095998;interest deposits
+581;145; Firmf1; Bankb0;deposits;552461.5244095998;interest deposits
+582;145;Householdhh0; Bankb1;deposits;552461.5244095998;interest deposits
+583;145;Householdhh1; Bankb1;deposits;552461.5244095998;interest deposits
+584;146; Firmf0; Bankb0;deposits;607707.6768505598;interest deposits
+585;146; Firmf1; Bankb0;deposits;607707.6768505598;interest deposits
+586;146;Householdhh0; Bankb1;deposits;607707.6768505598;interest deposits
+587;146;Householdhh1; Bankb1;deposits;607707.6768505598;interest deposits
+588;147; Firmf0; Bankb0;deposits;668478.4445356159;interest deposits
+589;147; Firmf1; Bankb0;deposits;668478.4445356159;interest deposits
+590;147;Householdhh0; Bankb1;deposits;668478.4445356159;interest deposits
+591;147;Householdhh1; Bankb1;deposits;668478.4445356159;interest deposits
+592;148; Firmf0; Bankb0;deposits;735326.2889891774;interest deposits
+593;148; Firmf1; Bankb0;deposits;735326.2889891774;interest deposits
+594;148;Householdhh0; Bankb1;deposits;735326.2889891774;interest deposits
+595;148;Householdhh1; Bankb1;deposits;735326.2889891774;interest deposits
+596;149; Firmf0; Bankb0;deposits;808858.9178880951;interest deposits
+597;149; Firmf1; Bankb0;deposits;808858.9178880951;interest deposits
+598;149;Householdhh0; Bankb1;deposits;808858.9178880951;interest deposits
+599;149;Householdhh1; Bankb1;deposits;808858.9178880951;interest deposits
+600;150; Firmf0; Bankb0;deposits;889744.8096769047;interest deposits
+601;150; Firmf1; Bankb0;deposits;889744.8096769047;interest deposits
+602;150;Householdhh0; Bankb1;deposits;889744.8096769047;interest deposits
+603;150;Householdhh1; Bankb1;deposits;889744.8096769047;interest deposits
+604;151; Firmf0; Bankb0;deposits;978719.290644595;interest deposits
+605;151; Firmf1; Bankb0;deposits;978719.290644595;interest deposits
+606;151;Householdhh0; Bankb1;deposits;978719.290644595;interest deposits
+607;151;Householdhh1; Bankb1;deposits;978719.290644595;interest deposits
+608;152; Firmf0; Bankb0;deposits;1076591.2197090546;interest deposits
+609;152; Firmf1; Bankb0;deposits;1076591.2197090546;interest deposits
+610;152;Householdhh0; Bankb1;deposits;1076591.2197090546;interest deposits
+611;152;Householdhh1; Bankb1;deposits;1076591.2197090546;interest deposits
+612;153; Firmf0; Bankb0;deposits;1184250.3416799603;interest deposits
+613;153; Firmf1; Bankb0;deposits;1184250.3416799603;interest deposits
+614;153;Householdhh0; Bankb1;deposits;1184250.3416799603;interest deposits
+615;153;Householdhh1; Bankb1;deposits;1184250.3416799603;interest deposits
+616;154; Firmf0; Bankb0;deposits;1302675.3758479562;interest deposits
+617;154; Firmf1; Bankb0;deposits;1302675.3758479562;interest deposits
+618;154;Householdhh0; Bankb1;deposits;1302675.3758479562;interest deposits
+619;154;Householdhh1; Bankb1;deposits;1302675.3758479562;interest deposits
+620;155; Firmf0; Bankb0;deposits;1432942.9134327518;interest deposits
+621;155; Firmf1; Bankb0;deposits;1432942.9134327518;interest deposits
+622;155;Householdhh0; Bankb1;deposits;1432942.9134327518;interest deposits
+623;155;Householdhh1; Bankb1;deposits;1432942.9134327518;interest deposits
+624;156; Firmf0; Bankb0;deposits;1576237.2047760272;interest deposits
+625;156; Firmf1; Bankb0;deposits;1576237.2047760272;interest deposits
+626;156;Householdhh0; Bankb1;deposits;1576237.2047760272;interest deposits
+627;156;Householdhh1; Bankb1;deposits;1576237.2047760272;interest deposits
+628;157; Firmf0; Bankb0;deposits;1733860.9252536297;interest deposits
+629;157; Firmf1; Bankb0;deposits;1733860.9252536297;interest deposits
+630;157;Householdhh0; Bankb1;deposits;1733860.9252536297;interest deposits
+631;157;Householdhh1; Bankb1;deposits;1733860.9252536297;interest deposits
+632;158; Firmf0; Bankb0;deposits;1907247.0177789927;interest deposits
+633;158; Firmf1; Bankb0;deposits;1907247.0177789927;interest deposits
+634;158;Householdhh0; Bankb1;deposits;1907247.0177789927;interest deposits
+635;158;Householdhh1; Bankb1;deposits;1907247.0177789927;interest deposits
+636;159; Firmf0; Bankb0;deposits;2097971.719556892;interest deposits
+637;159; Firmf1; Bankb0;deposits;2097971.719556892;interest deposits
+638;159;Householdhh0; Bankb1;deposits;2097971.719556892;interest deposits
+639;159;Householdhh1; Bankb1;deposits;2097971.719556892;interest deposits
+640;160; Firmf0; Bankb0;deposits;2307768.891512581;interest deposits
+641;160; Firmf1; Bankb0;deposits;2307768.891512581;interest deposits
+642;160;Householdhh0; Bankb1;deposits;2307768.891512581;interest deposits
+643;160;Householdhh1; Bankb1;deposits;2307768.891512581;interest deposits
+644;161; Firmf0; Bankb0;deposits;2538545.780663839;interest deposits
+645;161; Firmf1; Bankb0;deposits;2538545.780663839;interest deposits
+646;161;Householdhh0; Bankb1;deposits;2538545.780663839;interest deposits
+647;161;Householdhh1; Bankb1;deposits;2538545.780663839;interest deposits
+648;162; Firmf0; Bankb0;deposits;2792400.358730223;interest deposits
+649;162; Firmf1; Bankb0;deposits;2792400.358730223;interest deposits
+650;162;Householdhh0; Bankb1;deposits;2792400.358730223;interest deposits
+651;162;Householdhh1; Bankb1;deposits;2792400.358730223;interest deposits
+652;163; Firmf0; Bankb0;deposits;3071640.3946032454;interest deposits
+653;163; Firmf1; Bankb0;deposits;3071640.3946032454;interest deposits
+654;163;Householdhh0; Bankb1;deposits;3071640.3946032454;interest deposits
+655;163;Householdhh1; Bankb1;deposits;3071640.3946032454;interest deposits
+656;164; Firmf0; Bankb0;deposits;3378804.4340635706;interest deposits
+657;164; Firmf1; Bankb0;deposits;3378804.4340635706;interest deposits
+658;164;Householdhh0; Bankb1;deposits;3378804.4340635706;interest deposits
+659;164;Householdhh1; Bankb1;deposits;3378804.4340635706;interest deposits
+660;165; Firmf0; Bankb0;deposits;3716684.877469927;interest deposits
+661;165; Firmf1; Bankb0;deposits;3716684.877469927;interest deposits
+662;165;Householdhh0; Bankb1;deposits;3716684.877469927;interest deposits
+663;165;Householdhh1; Bankb1;deposits;3716684.877469927;interest deposits
+664;166; Firmf0; Bankb0;deposits;4088353.36521692;interest deposits
+665;166; Firmf1; Bankb0;deposits;4088353.36521692;interest deposits
+666;166;Householdhh0; Bankb1;deposits;4088353.36521692;interest deposits
+667;166;Householdhh1; Bankb1;deposits;4088353.36521692;interest deposits
+668;167; Firmf0; Bankb0;deposits;4497188.701738612;interest deposits
+669;167; Firmf1; Bankb0;deposits;4497188.701738612;interest deposits
+670;167;Householdhh0; Bankb1;deposits;4497188.701738612;interest deposits
+671;167;Householdhh1; Bankb1;deposits;4497188.701738612;interest deposits
+672;168; Firmf0; Bankb0;deposits;4946907.571912473;interest deposits
+673;168; Firmf1; Bankb0;deposits;4946907.571912473;interest deposits
+674;168;Householdhh0; Bankb1;deposits;4946907.571912473;interest deposits
+675;168;Householdhh1; Bankb1;deposits;4946907.571912473;interest deposits
+676;169; Firmf0; Bankb0;deposits;5441598.32910372;interest deposits
+677;169; Firmf1; Bankb0;deposits;5441598.32910372;interest deposits
+678;169;Householdhh0; Bankb1;deposits;5441598.32910372;interest deposits
+679;169;Householdhh1; Bankb1;deposits;5441598.32910372;interest deposits
+680;170; Firmf0; Bankb0;deposits;5985758.162014093;interest deposits
+681;170; Firmf1; Bankb0;deposits;5985758.162014093;interest deposits
+682;170;Householdhh0; Bankb1;deposits;5985758.162014093;interest deposits
+683;170;Householdhh1; Bankb1;deposits;5985758.162014093;interest deposits
+684;171; Firmf0; Bankb0;deposits;6584333.978215503;interest deposits
+685;171; Firmf1; Bankb0;deposits;6584333.978215503;interest deposits
+686;171;Householdhh0; Bankb1;deposits;6584333.978215503;interest deposits
+687;171;Householdhh1; Bankb1;deposits;6584333.978215503;interest deposits
+688;172; Firmf0; Bankb0;deposits;7242767.376037053;interest deposits
+689;172; Firmf1; Bankb0;deposits;7242767.376037053;interest deposits
+690;172;Householdhh0; Bankb1;deposits;7242767.376037053;interest deposits
+691;172;Householdhh1; Bankb1;deposits;7242767.376037053;interest deposits
+692;173; Firmf0; Bankb0;deposits;7967044.113640757;interest deposits
+693;173; Firmf1; Bankb0;deposits;7967044.113640757;interest deposits
+694;173;Householdhh0; Bankb1;deposits;7967044.113640757;interest deposits
+695;173;Householdhh1; Bankb1;deposits;7967044.113640757;interest deposits
+696;174; Firmf0; Bankb0;deposits;8763748.525004832;interest deposits
+697;174; Firmf1; Bankb0;deposits;8763748.525004832;interest deposits
+698;174;Householdhh0; Bankb1;deposits;8763748.525004832;interest deposits
+699;174;Householdhh1; Bankb1;deposits;8763748.525004832;interest deposits
+700;175; Firmf0; Bankb0;deposits;9640123.377505315;interest deposits
+701;175; Firmf1; Bankb0;deposits;9640123.377505315;interest deposits
+702;175;Householdhh0; Bankb1;deposits;9640123.377505315;interest deposits
+703;175;Householdhh1; Bankb1;deposits;9640123.377505315;interest deposits
+704;176; Firmf0; Bankb0;deposits;10604135.715255849;interest deposits
+705;176; Firmf1; Bankb0;deposits;10604135.715255849;interest deposits
+706;176;Householdhh0; Bankb1;deposits;10604135.715255849;interest deposits
+707;176;Householdhh1; Bankb1;deposits;10604135.715255849;interest deposits
+708;177; Firmf0; Bankb0;deposits;11664549.286781434;interest deposits
+709;177; Firmf1; Bankb0;deposits;11664549.286781434;interest deposits
+710;177;Householdhh0; Bankb1;deposits;11664549.286781434;interest deposits
+711;177;Householdhh1; Bankb1;deposits;11664549.286781434;interest deposits
+712;178; Firmf0; Bankb0;deposits;12831004.215459578;interest deposits
+713;178; Firmf1; Bankb0;deposits;12831004.215459578;interest deposits
+714;178;Householdhh0; Bankb1;deposits;12831004.215459578;interest deposits
+715;178;Householdhh1; Bankb1;deposits;12831004.215459578;interest deposits
+716;179; Firmf0; Bankb0;deposits;14114104.637005536;interest deposits
+717;179; Firmf1; Bankb0;deposits;14114104.637005536;interest deposits
+718;179;Householdhh0; Bankb1;deposits;14114104.637005536;interest deposits
+719;179;Householdhh1; Bankb1;deposits;14114104.637005536;interest deposits
+720;180; Firmf0; Bankb0;deposits;15525515.10070609;interest deposits
+721;180; Firmf1; Bankb0;deposits;15525515.10070609;interest deposits
+722;180;Householdhh0; Bankb1;deposits;15525515.10070609;interest deposits
+723;180;Householdhh1; Bankb1;deposits;15525515.10070609;interest deposits
+724;181; Firmf0; Bankb0;deposits;17078066.6107767;interest deposits
+725;181; Firmf1; Bankb0;deposits;17078066.6107767;interest deposits
+726;181;Householdhh0; Bankb1;deposits;17078066.6107767;interest deposits
+727;181;Householdhh1; Bankb1;deposits;17078066.6107767;interest deposits
+728;182; Firmf0; Bankb0;deposits;18785873.271854367;interest deposits
+729;182; Firmf1; Bankb0;deposits;18785873.271854367;interest deposits
+730;182;Householdhh0; Bankb1;deposits;18785873.271854367;interest deposits
+731;182;Householdhh1; Bankb1;deposits;18785873.271854367;interest deposits
+732;183; Firmf0; Bankb0;deposits;20664460.599039808;interest deposits
+733;183; Firmf1; Bankb0;deposits;20664460.599039808;interest deposits
+734;183;Householdhh0; Bankb1;deposits;20664460.599039808;interest deposits
+735;183;Householdhh1; Bankb1;deposits;20664460.599039808;interest deposits
+736;184; Firmf0; Bankb0;deposits;22730906.658943787;interest deposits
+737;184; Firmf1; Bankb0;deposits;22730906.658943787;interest deposits
+738;184;Householdhh0; Bankb1;deposits;22730906.658943787;interest deposits
+739;184;Householdhh1; Bankb1;deposits;22730906.658943787;interest deposits
+740;185; Firmf0; Bankb0;deposits;25003997.32483816;interest deposits
+741;185; Firmf1; Bankb0;deposits;25003997.32483816;interest deposits
+742;185;Householdhh0; Bankb1;deposits;25003997.32483816;interest deposits
+743;185;Householdhh1; Bankb1;deposits;25003997.32483816;interest deposits
+744;186; Firmf0; Bankb0;deposits;27504397.05732198;interest deposits
+745;186; Firmf1; Bankb0;deposits;27504397.05732198;interest deposits
+746;186;Householdhh0; Bankb1;deposits;27504397.05732198;interest deposits
+747;186;Householdhh1; Bankb1;deposits;27504397.05732198;interest deposits
+748;187; Firmf0; Bankb0;deposits;30254836.763054177;interest deposits
+749;187; Firmf1; Bankb0;deposits;30254836.763054177;interest deposits
+750;187;Householdhh0; Bankb1;deposits;30254836.763054177;interest deposits
+751;187;Householdhh1; Bankb1;deposits;30254836.763054177;interest deposits
