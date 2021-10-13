@@ -17,14 +17,15 @@ folders are required: an input folder (containing general and agent specific inp
 The simulation order is: 
 
 1. (optionally) Update the set-parameters notebook to change parameters in the input folder 
-2. Load parameters from input/parameters.json
-3. Initialise Environment class containing agents and measurements
-4. Run the runner 
-5. Which calls the updater
-6. Which contains a time loop that for every period
-7. Accrues from banks interest to the household and firm
-8. For each transaction an entry is saved to the environment
-9. At the end of the simulation the output is a csv file with all transactions (in output folder)
+2. the model runs from the __main__.py file (used to make this run as a Click application)
+3. Load parameters from input/parameters.json
+4. Initialise Environment class containing agents and measurements
+5. Run the runner 
+6. Which calls the updater
+7. Which contains a time loop that for every period
+8. Accrues from banks interest to the household and firm
+9. For each transaction an entry is saved to the environment
+10. At the end of the simulation the output is a csv file with all transactions (in output folder)
 
 # Changing how the model works 
 The simplest way to change how the model works is by changing the parameters. For deeper structural changes

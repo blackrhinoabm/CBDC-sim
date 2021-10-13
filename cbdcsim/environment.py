@@ -41,6 +41,8 @@ class Environment:
         self.central_bank = [CentralBank('cb1')]
 
         self.transactions_list = {'period': [], 'to_agent': [], 'from_agent_': [], 'settlement_type': [], 'amount': []}
+
+        # TODO load graph from file
         graph = nx.Graph()
 
         # 3 Next, we create the network structure linking Banks, Households, and Firms
